@@ -1,0 +1,30 @@
+
+.explain-input{
+  width: 328px;
+  height: 155px;
+  padding:12.5px 10px;
+  font-size: 16px;
+  border: 1px solid var(--grey);
+  font-family: 'Roboto';
+}
+
+.explain-div{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.explain-input:focus{
+  outline: none !important;
+  box-shadow: 1px 1px 7.5px var(--grey);
+}
+
+@media(max-width:550px){
+  
+.explain-input{
+  height: 135px;
+  font-size: 15px;
+}
+
+}

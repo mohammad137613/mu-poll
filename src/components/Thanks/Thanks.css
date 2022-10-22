@@ -1,0 +1,43 @@
+
+.thanks{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 75px;
+}
+
+.thanks--title{
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.thanks--description{
+  margin-top:5px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.thanks--button{
+  margin-top: 20px;
+}
+
+.go-to-start{
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 30px;
+  background-color:var(--black);
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+}
+
+.go-to-start:hover{
+  background-color: var(--black--hover);
+}
+
+
+.poll-icon{
+  height: 200px;
+}

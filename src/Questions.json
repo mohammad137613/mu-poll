@@ -1,0 +1,36 @@
+[{
+  "type":"explain-question",
+  "title":"In Your Opinion, What Is The Major Reason Of Iranian's Immigrate To Other Countries ?",
+  "number":1,
+  "next":"/question-two",
+  "prev":null,
+  "choices":null,
+  "path":"/question-one"
+}, {
+  "type":"choice-question",
+  "title":"In Your Opinion, Which One Is The Best Tool For WebPage Design?",
+  "number":2,
+  "next":"/question-three",
+  "prev":"/question-one",
+  "choices":["Figma", "Adobe XD", "Sketch", "Invision"],
+  "path":"/question-two"
+},
+{
+  "type":"choice-question",
+  "title":"Which Framework Do You Prefer for Frontend Web Develpement ?",
+  "number":3,
+  "next":"/question-four",
+  "prev":"/question-two",
+  "choices":["React", "Angular", "Vue", "None Of The Above"],
+  "path":"/question-three"
+},
+{
+  "type":"choice-question",
+  "title":"Which Framework Do You Prefer for Backend Develpement ?",
+  "number":4,
+  "next":null,
+  "prev":"/question-three",
+  "choices":["Django", "Node Js", "Laravel", "Flask"],
+  "path":"/question-four"
+}
+]

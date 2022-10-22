@@ -1,0 +1,124 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+label{
+  color: var(--black);
+}
+
+.user-info-form input{
+  margin-bottom: 5px ;
+}
+
+
+.user-info-form .number-input{
+  border: 1px solid var(--grey);
+  width:45px;
+  padding:7px 7.5px;
+  font-size: 15px;
+}
+
+.user-info-form #genders{
+  border: 1px solid var(--grey);
+  width:200px;
+  padding:7px 7.5px;
+  font-size: 15px;
+}
+
+#genders option{
+  font-size: 15px;
+}
+
+#genders option:hover{
+  background-color: var(--primary);
+  color:white;
+}
+
+.enterance--title{
+  text-align: center;
+  margin-top: 50px;
+  font-weight: bold;
+  color:var(--primary);
+  font-size: 25px;
+}
+.user-info-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top:50px;
+}
+
+.user-info-form label{
+  font-weight:500 ;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.user-info-form .text-input{
+  padding: 7px 7.5px;
+  font-size: 15px;
+  width: 300px;
+  border: 1px solid var(--grey);
+
+}
+
+
+
+.age-gender{
+  display: flex;
+  width: 317px;
+  justify-content: center;
+}
+
+.age-div, .gender-div{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.first-name-div, .last-name-div{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.gender-div{
+  flex: 1;
+}
+
+.user-info-form .submit-button{
+  margin-top: 20px;
+  cursor: pointer;
+  padding: 10px 30px;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  border:none;
+  border-radius: 30px;
+  background-color: var(--black);
+}
+
+.user-info-form .submit-button:hover{
+  background-color: var(--black--hover);
+}
+
+.user-info-form input:focus{
+  outline: none !important;
+  box-shadow: 1px 1px 5px var(--grey);
+}
+
+.error{
+  margin-bottom: 20px;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--primary);
+}

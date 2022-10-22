@@ -1,0 +1,100 @@
+.timer{
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 40px;
+  
+}
+
+.timer .text{
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--secondary);
+  
+}
+
+
+.timer .digits{
+  display: flex;
+  justify-content: center;
+  margin-top: 7.5px;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--black);
+}
+
+.timer .ending-soon{
+  font-weight: 700;
+  color: var(--primary);
+}
+
+
+.timer .seconds{
+  display: flex;
+}
+
+.timer .minutes{
+  display: flex;
+  margin-right: 10px;
+}
+
+.colon{
+  margin-right: 10px;
+  display: flex;
+  align-items: top;
+  font-size: 21px;
+  color: var(--black);
+}
+
+.minute-1, .minute-2, .second-1, .second-2 {
+  border: 1px solid var(--grey);
+  padding: 5px 7.5px;
+}
+
+.minute-1, .second-1{
+  margin-right: 2.5px;
+}
+
+
+
+@media (max-width:550px) {
+
+  
+  .timer .text{
+    font-weight: 400;
+    font-size: 17px;
+  }
+  
+  .timer .digits{
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .timer .ending-soon{
+    font-weight: 700;
+    color: var(--primary);
+  }
+  
+  
+  .timer .seconds{
+    display: flex;
+  }
+  
+  .timer .minutes{
+    margin-right: 7.5px;
+  }
+  
+  .colon{
+    margin-right: 7.5px;
+    font-size: 19px;
+  }
+  
+  .minute-1, .minute-2, .second-1, .second-2 {
+    padding: 3.5px 6px;
+  }
+  
+  .minute-1, .second-1{
+    margin-right: 2.5px;
+  }
+  
+  
+}

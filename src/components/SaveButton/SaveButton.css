@@ -1,0 +1,28 @@
+
+.save-button{
+  flex:1;
+  cursor: pointer;
+  padding: 12px 0;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  border:none;
+  border-radius: 5px;
+  background-color: #2C3A47;
+  column-gap: 20px;
+  width: 350px;
+  margin-top: 15px;
+}
+
+.save-button:hover{
+  background-color: var(--black--hover);
+}
+
+@media (max-width:550px) {
+  .save-button{
+    padding: 10px 0;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+}
