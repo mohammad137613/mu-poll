@@ -59,7 +59,7 @@ function App() {
   return (
     <div className="App">
       
-      <BrowserRouter>
+      <BrowserRouter basename='https://mohammad137613.github.io/mu-poll'>
         <Routes>
           
           <Route exact path='/' element={<Enterance setStarted={setStarted} started={started} />} />
