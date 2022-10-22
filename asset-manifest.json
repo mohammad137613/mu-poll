@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/mu-poll/static/css/main.f104dfee.css",
-    "main.js": "/mu-poll/static/js/main.cb5f3086.js",
+    "main.js": "/mu-poll/static/js/main.803687f4.js",
     "index.html": "/mu-poll/index.html",
     "main.f104dfee.css.map": "/mu-poll/static/css/main.f104dfee.css.map",
-    "main.cb5f3086.js.map": "/mu-poll/static/js/main.cb5f3086.js.map"
+    "main.803687f4.js.map": "/mu-poll/static/js/main.803687f4.js.map"
   },
   "entrypoints": [
     "static/css/main.f104dfee.css",
-    "static/js/main.cb5f3086.js"
+    "static/js/main.803687f4.js"
   ]
 }
